@@ -1,21 +1,30 @@
-Vue Sampleプログラム
-====
+# vue-sample
 
-簡易家計簿プログラム
+> A Vue.js project
 
-## Description
-簡易家計簿プログラムの作成。項目と金額を入力後「設定」ボタンをクリック。設定項目に項目と金額が追加されていく。追加された分の合計金額も表示。
-「リセット」ボタンで入力した項目をクリア。
+## Build Setup
 
-## tool
-以下のcdnを使用。
+``` bash
+# install dependencies
+npm install
 
-vue.js
+# serve with hot reload at localhost:8080
+npm run dev
 
-BootstrapVue
+# build for production with minification
+npm run build
 
-## Demo
-https://mac-like.com/demo/vue-sample.html
+# build for production and view the bundle analyzer report
+npm run build --report
 
-## Author
-[ShakaSeYuki](https://github.com/ShakaSeYuki)
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
